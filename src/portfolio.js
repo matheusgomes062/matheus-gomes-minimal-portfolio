@@ -24,7 +24,7 @@ const projects = [
     name: 'PARA Resiliência',
     description:
       'Site destinado a pesquisa universitária sobre o bom funcionamento de restaurante.s',
-    stack: ['Vue2', 'SASS', 'Vyex', 'Vue Router', 'Element UI', 'PugJs', 'Vercel', 'Bootstrap'],
+    stack: ['Vue2', 'SASS', 'Vuex', 'Vue Router', 'Element UI', 'PugJs', 'Vercel', 'Bootstrap'],
     sourceCode: 'https://github.com/matheusgomes062/app-resiliencia',
     livePreview: 'https://app-resiliencia.vercel.app/',
   },
