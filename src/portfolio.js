@@ -1,3 +1,7 @@
+// import { useTranslation } from 'react-i18next';
+
+// import i18next from 'i18next';
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/matheusgomes062',
@@ -8,9 +12,8 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matheus Gomes',
   role: 'Front End Engineer',
-  description:
-    'Desenvolvedor full stack especializado em front end com comprovadas habilidades técnicas, organizacionais e de comunicação, trabalhando com Agile e projetando soluções de software. Oferecendo fortes habilidades em Vue e experiência de trabalho com SQL (PostgreSQL), .NET Core, Javascript e muito mais. Recentemente escrevi um livro em Markdown sobre Markwdown!',
-  resume: 'https://app.rezi.ai/s/zMEE6TCqi2LNwQ4xmEGU',
+  description: 'DescriptionData',
+  resume: 'ResumeUrl',
   social: {
     linkedin: 'https://www.linkedin.com/in/matheus-gomes-dev/',
     github: 'https://github.com/matheusgomes062',
@@ -21,17 +24,15 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'PARA Resiliência',
-    description:
-      'Site destinado a pesquisa universitária sobre o bom funcionamento de restaurante.s',
+    name: 'ProjectTitle1',
+    description: 'ProjectDescription1',
     stack: ['Vue2', 'SASS', 'Vuex', 'Vue Router', 'Element UI', 'PugJs', 'Vercel', 'Bootstrap'],
     sourceCode: 'https://github.com/matheusgomes062/app-resiliencia',
     livePreview: 'https://app-resiliencia.vercel.app/',
   },
   {
-    name: 'Guia Markdown',
-    description:
-      'Livro destinado a ensinar e ser um guia sobre Markdown, sendo o primeiro livro do genêro no Brasil. Escrito em Markdown sobre Markdown e disponibilizado de forma gratuita!',
+    name: 'ProjectTitle2',
+    description: 'ProjectDescription2',
     stack: ['Markdown'],
     sourceCode: 'https://github.com/matheusgomes062/guia-markdown',
     livePreview: 'https://drive.google.com/file/d/18sS8Pb7p22uRgDwFTOh1kI4VaVSWDy9Y/view?usp=sharing',

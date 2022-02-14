@@ -5,5 +5,11 @@
   "Projects": "Projects",
   "Email me": "Email me",
   "Contact": "Contact",
-  "Projects": "Projects"
+  "Projects": "Projects",
+  "DescriptionData": "Full stack developer specialized in front-end with proven technical, organizational and communication skills, working with Agile designing software solutions. Offering strong Vue skills and experience working with SQL (PostgreSQL), .NET Core, Javascript and more. I recently wrote a book on Markdown about Markdown!",
+  "ResumeUrl": "https://app.rezi.ai/s/pjj4bdj2XZTaGtmWhpL2",
+  "ProjectTitle1": "PARA Resiliência",
+  "ProjectDescription1": "Site for university research on the proper functioning of restaurants. We created a form with questions from the bank, Google Forms style.",
+  "ProjectTitle2": "Markdown Guide",
+  "ProjectDescription2": "Book intended to teach and be a guide about Markdown, being the first book of its kind in Brazil. Written in Markdown about Markdown and made available for free!"
 }

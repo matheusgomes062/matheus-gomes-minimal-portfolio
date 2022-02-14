@@ -17,11 +17,11 @@ const About = () => {
       )}
 
       {role && <h2 className='about__role'>{t('I am')} {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      <p className='about__desc'>{t(description) && t(description)})</p>
 
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
+        {t(resume) && (
+          <a href={t(resume)}>
             <span type='button' className='btn btn--outline'>
               {t('Currículo')}
             </span>
