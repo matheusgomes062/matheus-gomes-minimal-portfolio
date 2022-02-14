@@ -3,15 +3,27 @@ import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
+import { Translate } from '@material-ui/icons'
+import { changeLanguage } from 'i18next'
+import { useTranslation } from 'react-i18next'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
   const [showNavList, setShowNavList] = useState(false)
-
+  
   const toggleNavList = () => setShowNavList(!showNavList)
+  
+  const [langUsing, setLangUsing] = useState(false)
+  const langList = ['pt', 'en'];
+  
+  const changeLangUsing = () => {
+    changeLanguage(langUsing ? langList[0] : langList[1])
+    setLangUsing(!langUsing)
+  }
 
   return (
     <nav className='center nav'>
@@ -26,7 +38,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Projects
+              {t('Projects')}
             </a>
           </li>
         ) : null}
@@ -50,7 +62,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Contact
+              {t('Contact')}
             </a>
           </li>
         ) : null}
@@ -63,6 +75,15 @@ const Navbar = () => {
         aria-label='toggle theme'
       >
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+      </button>
+
+      <button
+        type='button'
+        onClick={changeLangUsing}
+        className='btn btn--icon nav__theme'
+        aria-label='toggle language'
+      >
+        <Translate/>
       </button>
 
       <button
