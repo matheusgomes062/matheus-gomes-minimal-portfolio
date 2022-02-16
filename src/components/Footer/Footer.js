@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Favorite } from '@material-ui/icons'
 
 const Footer = () => (
   <footer className='footer'>
@@ -6,9 +7,9 @@ const Footer = () => (
       href='https://github.com/rajshekhar26/cleanfolio'
       className='link footer__link'
     >
-      Portfolio design created By Raj Shekhar
+      Created by Matheus Gomes
     </a>
-    <p>Thank you ❤</p>
+    <Favorite fontSize="small"/>
   </footer>
 )
 

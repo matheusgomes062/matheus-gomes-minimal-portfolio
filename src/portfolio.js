@@ -5,7 +5,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/matheusgomes062',
-  title: 'VUE ❤',
+  title: 'MG.',
 }
 
 const about = {
@@ -90,4 +90,6 @@ const contact = {
   email: 'matheusgomes062@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+const devToUrl = "https://dev.to/api/articles?username=matheusgomes062"
+
+export { header, about, projects, skills, contact, devToUrl }
