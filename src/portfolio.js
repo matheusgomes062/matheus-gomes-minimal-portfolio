@@ -11,7 +11,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Matheus Gomes',
-  role: 'Front End Engineer',
+  role: 'Front End Developer',
   description: 'DescriptionData',
   resume: 'ResumeUrl',
   social: {
@@ -79,7 +79,7 @@ const skills = [
   'Figma',
   'Shopify - Dropshipping',
   'Web Design',
-  'Inteligência Artifical',
+  'AI',
   'REST API',
   'Git',
   'Jest',
